@@ -1,0 +1,55 @@
+
+body{
+ margin: auto;
+}
+
+
+p{
+    padding:0px;
+    margin:0px;
+}
+.oneandhalf {line-height: 1.5em;}
+#header{
+    line-height: 2em;
+    font-family: 'Open Sans', sans-serif;
+}
+.hero{
+
+    background-image:   url("faded-office.png") ;
+    background-size: cover;
+
+    height: 400px;
+    width: 700px;
+
+    border: 3px solid  black;
+    padding-left: 40px;
+    padding-right: 0px;
+    margin: 50px auto;
+
+}
+:root{
+    --powderpuff: #0ea5e9;
+}
+#alltext{
+    line-height: 1.2em;
+
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    color: #020202;
+}
+#button{
+    background-color: var(--powderpuff);
+    color:white;
+    width: 150px;
+    height:50px;
+    margin-top: 30px;
+    padding: 10px 20px ;
+    border-style: none;
+    font-weight: 600;
+}
+#subtext{
+    font-family:Arial, Helvetica, sans-serif;
+}
+#underline{
+    border-bottom:  solid 5px var(--powderpuff);
+}
